@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-main :#f1f5f9;
+}
+
+body, html{
+    background-color: var(--background-main);
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+nav{
+  z-index: 9999;
+  width: 100%;
+}
+.fx{
+    margin: auto;
+}
+nav .fx a:hover{
+ color: blue;
+}
+
+.en img{
+  height: 25px;
+}
+
+nav .logo{
+  height: 30px;
+}
+/* hero */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    opacity: 0.90;
+    padding: 15px 0px;
+    border-radius: 30px;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  /* intro */
+
+  .intro{
+    position: relative;
+    top: 80px;
+  }
+
+  .intro h1{
+    text-align: center;
+  }
+   .gz{
+  text-align: center;
+  position: relative;
+  top: 10px;
+  }
+
+  /* caracteristiques */
+
+  .intro .cara-text{
+    position: relative;
+    top: 120px;
+  }
+
+  .cara-text .jk{
+    position: relative;
+    top: 60px;
+  }
+
+  .cara-text h2{
+    text-align: center;
+  }
+  .cara-text .img2 img{
+    height:360px;
+    width: 480px;
+    position: relative;
+    left: 70px;
+    top: 60px;
+  }
+  .text-lg{
+    position: relative;
+    left: 10px;
+    top: 25px;
+  }
+
+  /* price */
+
+  .price{
+    position: relative;
+    top: 260px;
+  }
+  .price table{
+    position: relative;
+    top: 65px;
+  }
+
+.title h1{
+  text-align: center;
+}
+table{
+  position: relative;
+  top: 25px;
+}
+
+.table-price .h5{
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.table-price .h6{
+  position: relative;
+  top: 50px;
+}
+
+.paid{
+  margin-left: 20%;
+  padding: 0 10px;
+}
+.paid p{
+  display: flex;
+  position: relative;
+  top: 70px;
+}
+.paid img{
+  height: 30px;
+  position: relative;
+  bottom: 4px;
+  left: 8px;
+}
+
+.whaname , .telename{
+  position: relative;
+  left: 6px;
+  bottom: 2px;
+}
+
+.fixtele {
+  position: relative;
+  left: 30px;
+}
+
+#fixit{
+  position: relative;
+  left: 29px;
+}
+
+.fix1{
+  position: relative;
+  left: 25px;
+}
+/* banner  */
+
+.banner-img{
+  position: relative;
+  top: 380px;
+ background-color:  #e2e8f0;
+ width: 100%;
+ height: 220px;
+}
+
+.banner-img h1{
+  position: relative;
+  top: 45px;
+  text-align: center;
+}
+.banner-img button{
+  position: relative;
+  left: 42%;
+  top: 65px;
+}
+
+/* tuto-banner */
+
+.tuto-banner{
+  position: relative;
+  top: 400px;
+ background-color:#d1d5db;
+ width: 100%;
+ height: 160px;
+}
+
+.tuto-banner1{
+  position: relative;
+  top: 400px;
+ background-color:  #a1a1aa;
+ width: 100%;
+ height: 160px;
+}
+
+.tuto-banner h1{
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  right: 5px;
+}
+
+.tuto-banner button{
+  position: absolute;
+  bottom: 15px;
+  left: 540px;
+}
+
+/* Footer */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #f1f5f9;
+position: relative;
+top: 460px;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #18181b;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #27272a;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+ 
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+ 
+.copyright-area p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+text-align: center;
+position: relative;
+left: 260px;
+}
+.copyright-area p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+
+
+@media (min-width: 1400px){
+
+  .intro{
+    position: relative;
+    left: 0px;
+  }
+
+  .paid{
+    position: relative;
+    left: 12px;
+  }
+
+   .tuto-banner1 button , .tuto-banner button{
+     position: absolute;
+     left: 380px;
+   }
+
+   .banner-img button{
+     margin-left: 60px;
+   }
+
+   .tuto-banner button{
+    position: absolute;
+    bottom: 15px;
+    left: 850px;
+  }
+}
+
+/* smartphone resolution */
+
+@media (max-width: 576px) {
+  
+  .hero-text {
+    margin-top: 30px;
+  }
+.hero-text .mp{
+  font-size: 26px;
+}
+
+.intro h1 {
+  position: relative;
+  bottom: 20px;
+}
+
+.intro .gz{
+  position: relative;
+  top: 0px;
+}
+.cara-text h2{
+  position: relative;
+   bottom: 20px;
+}
+.intro .jk{
+  position: relative;
+  top: -50px;
+}
+
+.intro .img2 img{
+  position: relative;
+  left: 0px;
+  top: -40px;
+  height: 320px;
+  width: 320px;
+}
+.paid{
+  position: relative;
+  right: 80px;
+}
+.paid .fix2{
+  position: relative;
+  top: 49px;
+  left: -130px;
+}
+
+.tuto .green{
+  position: absolute;
+  left: 90px;
+}
+
+.banner .blue{
+  position: relative;
+  left: 90px;
+}
+
+.tuto-banner1{
+  margin-top: 40px;
+}
+.tuto-banner1 button{
+  position: relative;
+  left: 90px;
+  top: 50px;
+}
+
+.single-cta{
+  padding: 30px 0 ;
+}
+
+.copyright-area .text-lg-left p{
+  position: relative;
+  left: 0px;
+}
+
+}
